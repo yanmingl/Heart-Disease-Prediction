@@ -42,7 +42,7 @@ We apply the MLPClassifier from the sklearn package by assigning two hidden laye
 
 Compared to the KNN, Tree-based method, and Logistic Regression, the optimal accuracy of 73.47% is obtained when training a Neural Network under the best parameters, where the parameters used were 2 hidden layers with 5 nodes each and the activation function is logistic. The second highest was the Decision tree with an accuracy of 73.2% and the least accuracy was obtained using 5-fold cross-validation on the full tree for the whole dataset with a size of 68,414 rows is 62.7%. By trying different parameters using grid search methods, there was an accuracy increase of 10.5% for the Tree. Overall, Neural Networks prove to be the best of all.
 
-<img width="452" alt="image" src="https://user-images.githubusercontent.com/49282511/206948574-e21fe882-6831-4d21-8c2f-0e3175bc5f28.png">
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/49282511/206948574-e21fe882-6831-4d21-8c2f-0e3175bc5f28.png">
 
 # Future Work
 - In this project, we did not explore the sampling techniques on the final accuracy among models, just stopped after a shallow trail in trees and using the full cleaned dataset. Go ahead and do it!
