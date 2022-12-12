@@ -1,3 +1,4 @@
+# Feature Analysis and Prediction of Heart Disease Patient
 ## Project Objective
 
 A course project for IE 7275: Data Mining in Engineering to analyze the characteristic of subjects who have heart disease using exploratory data analysis to avoid being such a part of patients, and figure out the best model that can be used for prediction of heart disease among K-Nearest Neighbor (KNN), Trees-based (Decision Tree, Boosted Tree, Random Forest), Logistic Regression, and Neural Network in Sklearn package for further health app development. 
