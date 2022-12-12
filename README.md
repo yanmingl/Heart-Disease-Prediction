@@ -1,11 +1,11 @@
 ## Project Objective
 
-A course project for IE 7275: Data Mining in Engineering to analyze the characteristic of subjects who have heart disease using exploratory data analysis, and figure out the best model that can be used for prediction of heart disease among K-Nearest Neighbor (KNN), Trees-based (Decision Tree, Boosted Tree, Random Forest), Logistic Regression, and Neural Network in Sklearn package. 
+A course project for IE 7275: Data Mining in Engineering to analyze the characteristic of subjects who have heart disease using exploratory data analysis to avoid being such a part of patients, and figure out the best model that can be used for prediction of heart disease among K-Nearest Neighbor (KNN), Trees-based (Decision Tree, Boosted Tree, Random Forest), Logistic Regression, and Neural Network in Sklearn package for further health app development. 
 
 
 ## Data & Its Preprocessing
 
-The [heart disease dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset) consists of 70000 records of patient data, 11 attributes, and one target column. At first, we clean the data by dropping meaningless features like ID and removing outliers under summary statistics, pair plots, and searchable medical domain knowledge. Then, we conduct data transformation, such as data sampling for 5000 records, one hot-encoding for the target, data normalization for the predictor, and data split to train/test with a ratio of 7/3 for further models.
+The [heart disease dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset) consists of 70000 records of patient data, 11 attributes, and one target column. At first, we clean the data by dropping meaningless features like ID and removing outliers under summary statistics, pair plots, and searchable medical domain knowledge. Then, we conduct data transformation, such as data sampling for 5000 records for EDA, one hot-encoding for the target, data normalization for the predictor, and data split to train/test with a ratio of 7/3 for further models.
 
 ## Exploratory Data Analysis
 We conduct an overall analysis on quantifying numeric variable distribution or class frequency of categorical features for subjects who have heart disease compared to those who do not.
@@ -19,6 +19,7 @@ Our data is approximately balanced, as A(below) shows, which enacts a superior l
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/49282511/206950845-84ca7e92-4f7b-4082-af10-58588e90722a.png">
 
+How can you lower the risk or even avoid being a patient with heart disease can be concluded as the past two paragraphs told us. We may be unable to control our age or height, but we can do fitness to manage our weight and regularly test our blood pressure to stay at a relative side. 
 
 ## Data Mining Models
 They are K-Nearest Neighbor (KNN), Trees-based (Decision Tree, Boosted Tree, Random Forest), Logistic Regression, and Neural Networks.
@@ -51,3 +52,4 @@ Compared to the KNN, Tree-based method, and Logistic Regression, the optimal acc
 - We just tuned the number of layers in our Neural Network, and try other parameters like the number of nodes as well.
 - Are our models overfitting or not? Think about the tradeoff issue, monitor them, and avoid them.
 - Not being a toolkit driver, try to implement those classical machine algorithms from the scratch.
+- Deploy the model for real health application like apple watch, for monitering people's conditions and gave them a signal for probability of being a patient with heart disease. 
