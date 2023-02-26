@@ -25,7 +25,6 @@ Our findings suggest that maintaining a healthy body weight, regular blood press
 ## Data Mining Models
 We evaluated several models, including K-Nearest Neighbor (KNN), tree-based models (Decision Tree, Boosted Tree, Random Forest), Logistic Regression, and Neural Networks.
 
-### Hyperparameter Tuning
 For KNN, we chose k=5 based on the elbow method, which avoids overfitting. The model achieved an accuracy of 70.2%.
 
 A Decision Tree was fitted on the dataset using a training size of 75% on both a sample of 5000 rows and the full dataset of 68,414 rows. Predictive accuracies of 64.1% and 63.5% were achieved, respectively, indicating that thousands of records are sufficient to detect potential patterns in the data. To improve accuracy, the model trained on the full dataset was used, but due to the instability of the tree, cross-validation was introduced to remove the effect of occasional split conditions. The average accuracy using 5-fold cross-validation on the full tree was 62.7%, which was assumed as the baseline metric.
